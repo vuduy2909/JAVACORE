@@ -27,6 +27,7 @@ public class bai6 {
 		if (n % 2 != 0) { // nếu n là số lẻ thì in thêm n
 			System.out.println(n);
 		}
+		
 		for (int i = 1; i <= (n / 2); i++) {
 			int sign = -1;
 			if (i % 2 == 1) {

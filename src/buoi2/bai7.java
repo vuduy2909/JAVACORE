@@ -1,27 +1,26 @@
+//Tính giai thừa của số n (n là số được nhập vào từ bàn phím) bằng cách sử dụng vòng lặp for.
 package buoi2;
-import java.util.Scanner;
+
+import java.util.*;
+
 public class bai7 {
 
+	public static void main(String[] args) {
 
-		
+		Scanner input = new Scanner(System.in);
+		int n;
+		do {
+			System.out.println("Nhap so nguyen duong n=");
+			n = input.nextInt();
 
-		    public static void main(String[] args) {
-
-		        Scanner scanner = new Scanner(System.in);
-
-		        System.out.print("Nhập vào độ dài cạnh của khối lập phương: ");
-
-		        int size = scanner.nextInt();
-
-
-		        for (int i = 1,int n=10; i <= n; i++) { // Vòng lặp cho chiều cao
-
-		            
-		                        System.out.print("*");}
-
-
-		          
 		}
+
+		while (n < 0);
+
+		long product =1;
+		for (int i=1;i<=n;i++) {
+			product *= i;
+		}
+		
 	}
-
-
+}
