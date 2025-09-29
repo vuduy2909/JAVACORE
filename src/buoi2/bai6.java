@@ -39,6 +39,7 @@ public class bai6 {
 		if (n % 2 != 0) { // nếu n là số lẻ thì in thêm n
 			System.out.println(n);
 		}
+		input.close();
 
 	}
 

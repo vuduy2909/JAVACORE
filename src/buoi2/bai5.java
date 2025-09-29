@@ -18,6 +18,7 @@ public class bai5 {
 			sum +=(1.0/i);
 		}
 		System.out.printf("%.2f",sum);
+		input.close();
 	}
 
 }

@@ -18,6 +18,7 @@ public class bai4 {
 			sum +=i;
 		}
 		System.out.print(sum);
+		input.close();
 	}
 
 }

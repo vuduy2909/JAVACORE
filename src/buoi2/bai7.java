@@ -10,17 +10,17 @@ public class bai7 {
 		Scanner input = new Scanner(System.in);
 		int n;
 		do {
-			System.out.println("Nhap so nguyen duong n=");
+			System.out.print("Nhap so nguyen duong n=");
 			n = input.nextInt();
-
-		}
-
-		while (n < 0);
-
-		long product =1;
-		for (int i=1;i<=n;i++) {
+		} while (n < 0);
+		long product = 1;
+		// Cach for
+		for (int i = 1; i <= n; i++) {
 			product *= i;
 		}
-		
+		System.out.printf("Giai thua cua %d la: %d ", n, product);
+		System.out.println();
+		input.close();
 	}
+	
 }
