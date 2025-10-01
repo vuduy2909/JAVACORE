@@ -86,7 +86,6 @@ public class Bai8 {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		nhap();
 		System.out.println("\n=== DANH SACH NHAN VIEN ===");
